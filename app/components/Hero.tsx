@@ -67,8 +67,8 @@ export default function Hero() {
                 textAlign: 'center', maxWidth: 820, lineHeight: 1.1,
                 color: '#fff', letterSpacing: '-0.02em',
             }}>
-                Run Your Business<br />
-                <span style={{ color: '#E8700D' }}>Intelligently.</span>
+                Stop Guessing What to Buy.<br />
+                <span style={{ color: '#E8700D' }}>Let AI Decide With You.</span>
             </h1>
 
             {/* Subheading */}
@@ -78,8 +78,7 @@ export default function Hero() {
                 fontSize: 'clamp(16px, 2vw, 20px)', color: '#888',
                 textAlign: 'center', maxWidth: 600, marginTop: 24, lineHeight: 1.7,
             }}>
-                Forgera centralizes inventory, sales, purchasing, and supply chain operations into one AI-powered platform — built for retail, wholesale, and distribution businesses.
-            </p>
+                Our platform ForgeraAI helps inventory-driven businesses predict demand, prevent stockouts, optimize purchasing, and gain complete visibility into inventory, suppliers, and cash flow—all from one intelligent platform.</p>
 
             {/* CTAs */}
             <div style={{
