@@ -162,6 +162,7 @@ export default function Pricing() {
                             <p style={{ fontSize: 13, color: '#666', marginBottom: 24, lineHeight: 1.6 }}>{plan.desc}</p>
 
                             <button
+                                onClick={() => window.location.href = 'mailto:amar@forgera.app?subject=Contact%20Sales%20-%20Forgera%20Pricing'}
                                 style={{
                                     width: '100%', padding: '12px', borderRadius: 10,
                                     background: plan.popular ? '#E8700D' : 'transparent',

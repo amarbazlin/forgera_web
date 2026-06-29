@@ -3260,6 +3260,7 @@ function Pricing() {
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Forgera$2f$forgera$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: ()=>window.location.href = 'mailto:amar@forgera.app?subject=Contact%20Sales%20-%20Forgera%20Pricing',
                                     style: {
                                         width: '100%',
                                         padding: '12px',
@@ -3324,7 +3325,7 @@ function Pricing() {
                                                             stroke: "rgba(232,112,13,0.3)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                                            lineNumber: 187,
+                                                            lineNumber: 188,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Forgera$2f$forgera$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -3335,13 +3336,13 @@ function Pricing() {
                                                             strokeLinejoin: "round"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                                            lineNumber: 188,
+                                                            lineNumber: 189,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                                    lineNumber: 186,
+                                                    lineNumber: 187,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Forgera$2f$forgera$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3352,18 +3353,18 @@ function Pricing() {
                                                     children: f
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                                    lineNumber: 190,
+                                                    lineNumber: 191,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, f, true, {
                                             fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                            lineNumber: 185,
+                                            lineNumber: 186,
                                             columnNumber: 37
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                    lineNumber: 183,
+                                    lineNumber: 184,
                                     columnNumber: 29
                                 }, this)
                             ]
@@ -3399,7 +3400,7 @@ function Pricing() {
                             children: "All Paid Plans Include"
                         }, void 0, false, {
                             fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                            lineNumber: 203,
+                            lineNumber: 204,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Forgera$2f$forgera$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3442,7 +3443,7 @@ function Pricing() {
                                                     stroke: "rgba(232,112,13,0.3)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 223,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Forgera$2f$forgera$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -3453,31 +3454,31 @@ function Pricing() {
                                                     strokeLinejoin: "round"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                                    lineNumber: 223,
+                                                    lineNumber: 224,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                            lineNumber: 221,
+                                            lineNumber: 222,
                                             columnNumber: 33
                                         }, this),
                                         item
                                     ]
                                 }, item, true, {
                                     fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                                    lineNumber: 220,
+                                    lineNumber: 221,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                            lineNumber: 206,
+                            lineNumber: 207,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/Forgera/forgera-web/app/components/Pricing.tsx",
-                    lineNumber: 198,
+                    lineNumber: 199,
                     columnNumber: 17
                 }, this)
             ]
