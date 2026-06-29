@@ -117,7 +117,6 @@ export default function Navbar() {
               background: 'none',
               border: 'none',
               color: '#fff',
-              display: 'none',
               flexDirection: 'column',
               gap: 5,
               padding: 4,
@@ -196,12 +195,6 @@ export default function Navbar() {
         </div>
       )}
 
-      <style>{`
-        @media (max-width: 768px) {
-          .nav-links { display: none !important; }
-          .hamburger { display: flex !important; }
-        }
-      `}</style>
     </nav>
   );
 }

@@ -123,10 +123,13 @@ export default function Pricing() {
                     </div>
                 </div>
 
-                <div style={{
-                    display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 20,
-                    alignItems: 'stretch',
-                }}>
+                <div
+                    className="pricing-grid"
+                    style={{
+                        display: 'grid', gap: 20,
+                        alignItems: 'stretch',
+                    }}
+                >
                     {plans.map((plan, i) => (
                         <div key={plan.name} className={`reveal delay-${i + 1}`} style={{
                             background: plan.popular ? 'linear-gradient(135deg, #1a1200, #111)' : '#111',

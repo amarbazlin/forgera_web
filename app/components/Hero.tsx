@@ -110,17 +110,19 @@ export default function Hero() {
             </div>
 
             {/* Stats */}
-            <div style={{
-                opacity: loaded ? 1 : 0, transform: loaded ? 'translateY(0)' : 'translateY(30px)',
-                transition: 'all 0.7s ease 0.65s',
-                display: 'flex', gap: 48, marginTop: 64, flexWrap: 'wrap', justifyContent: 'center',
-            }}>
+            <div
+              className="hero-stats"
+              style={{
+                  opacity: loaded ? 1 : 0, transform: loaded ? 'translateY(0)' : 'translateY(30px)',
+                  transition: 'all 0.7s ease 0.65s',
+                  display: 'flex', gap: 48, marginTop: 64, flexWrap: 'wrap', justifyContent: 'center',
+              }}>
                 {[
                     { val: '10+', label: 'Modules' },
                     { val: 'Multi', label: 'Location Support' },
                     { val: 'Real-time', label: 'AI Insights' },
                 ].map((s) => (
-                    <div key={s.label} style={{ textAlign: 'center' }}>
+                    <div key={s.label} className="hero-stat-item" style={{ textAlign: 'center' }}>
                         <div style={{ fontSize: 28, fontWeight: 800, color: '#E8700D', fontFamily: 'Sora' }}>{s.val}</div>
                         <div style={{ fontSize: 13, color: '#666', marginTop: 4 }}>{s.label}</div>
                     </div>
@@ -158,6 +160,7 @@ export default function Hero() {
                 }
                 @media (max-width: 640px) {
                     .section-hero { padding: 100px 5% 50px !important; }
+                    .hero-stats { gap: 24px !important; }
                 }
             `}</style>
         </section>

@@ -53,11 +53,14 @@ export default function HowItWorks() {
                     </h2>
                 </div>
 
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))',
-                    gap: 2, position: 'relative',
-                }}>
+                <div
+                    className="how-it-works-grid"
+                    style={{
+                        display: 'grid',
+                        gap: 20,
+                        position: 'relative',
+                    }}
+                >
                     {steps.map((step, i) => (
                         <div key={step.num} className={`reveal delay-${i + 1}`} style={{ position: 'relative', padding: '0 8px' }}>
                             {i < steps.length - 1 && (
@@ -92,8 +95,15 @@ export default function HowItWorks() {
             </div>
 
             <style>{`
+                .how-it-works-grid {
+                    grid-template-columns: repeat(4, 1fr);
+                }
                 @media (max-width: 768px) {
+                    .how-it-works-grid { grid-template-columns: 1fr 1fr !important; }
                     .step-connector { display: none !important; }
+                }
+                @media (max-width: 480px) {
+                    .how-it-works-grid { grid-template-columns: 1fr !important; }
                 }
             `}</style>
         </section>

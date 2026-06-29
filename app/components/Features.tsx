@@ -103,11 +103,12 @@ export default function Features() {
                 </div>
 
                 {/* Grid */}
-                <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'repeat(3, 1fr)',
-                    gap: 20,
-                }}>
+                <div
+                    className="features-grid"
+                    style={{
+                        display: 'grid',
+                        gap: 20,
+                    }}>
                     {features.map((f, i) => (
                         <div
                             key={f.title}
