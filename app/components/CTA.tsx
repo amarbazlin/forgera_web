@@ -51,15 +51,6 @@ export default function CTA() {
           position: 'relative',
         }}>
           <button
-            style={{
-              background: '#E8700D', color: '#fff', borderRadius: 10,
-              padding: '14px 36px', fontSize: 16, fontWeight: 600,
-              transition: 'all 0.25s', boxShadow: '0 0 30px rgba(232,112,13,0.3)',
-            }}
-            onMouseEnter={e => { e.currentTarget.style.background = '#C45D0A'; e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 40px rgba(232,112,13,0.5)'; }}
-            onMouseLeave={e => { e.currentTarget.style.background = '#E8700D'; e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 0 30px rgba(232,112,13,0.3)'; }}
-          >Contact Sales</button>
-          <button
             onClick={() => window.location.href = 'mailto:amar@forgera.app?subject=Contact%20Us%20-%20Forgera'}
             style={{
               background: 'transparent', color: '#aaa',

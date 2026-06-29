@@ -80,9 +80,6 @@ export default function Footer() {
                     <span style={{ fontSize: 13, color: '#444' }}>
                         © {new Date().getFullYear()} Forgera. All rights reserved.
                     </span>
-                    <span style={{ fontSize: 13, color: '#333' }}>
-                        Built in Sri Lanka 🇱🇰
-                    </span>
                 </div>
             </div>
 
