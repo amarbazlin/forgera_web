@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Google AI & Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic (Claude)
+User-agent: Anthropic-AI
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Apple AI (Apple Intelligence)
+User-agent: Applebot-Extended
+Allow: /
+
+# DuckDuckGo AI & Search
+User-agent: DuckDuckBot
+Allow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Common Crawl (Used by many open-source AI models)
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://www.forgera.app/sitemap.xml
