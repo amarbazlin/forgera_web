@@ -87,7 +87,7 @@ export default function Navbar() {
         {/* CTA */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <button
-            onClick={() => scrollTo('pricing')}
+            onClick={() => window.location.href = 'mailto:amar@forgera.app?subject=Contact%20Us%20-%20Forgera'}
             style={{
               background: '#E8700D',
               color: '#fff',
@@ -106,7 +106,7 @@ export default function Navbar() {
               e.currentTarget.style.transform = 'translateY(0)';
             }}
           >
-            Get Started
+            Contact
           </button>
 
           {/* Hamburger */}

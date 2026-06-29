@@ -161,7 +161,7 @@ function Navbar() {
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Forgera$2f$forgera$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>scrollTo('pricing'),
+                                onClick: ()=>window.location.href = 'mailto:amar@forgera.app?subject=Contact%20Us%20-%20Forgera',
                                 style: {
                                     background: '#E8700D',
                                     color: '#fff',
@@ -179,7 +179,7 @@ function Navbar() {
                                     e.currentTarget.style.background = '#E8700D';
                                     e.currentTarget.style.transform = 'translateY(0)';
                                 },
-                                children: "Get Started"
+                                children: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/Documents/Forgera/forgera-web/app/components/Navbar.tsx",
                                 lineNumber: 89,
@@ -1296,7 +1296,7 @@ function Hero() {
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Forgera$2f$forgera$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        onClick: ()=>scrollTo('pricing'),
+                        onClick: ()=>window.location.href = 'mailto:amar@forgera.app?subject=Contact%20Us%20-%20Forgera',
                         style: {
                             background: '#E8700D',
                             color: '#fff',
@@ -1317,7 +1317,7 @@ function Hero() {
                             e.currentTarget.style.transform = 'translateY(0)';
                             e.currentTarget.style.boxShadow = '0 0 30px rgba(232,112,13,0.3)';
                         },
-                        children: "Get Started Free"
+                        children: "Contact"
                     }, void 0, false, {
                         fileName: "[project]/Documents/Forgera/forgera-web/app/components/Hero.tsx",
                         lineNumber: 89,
@@ -2925,7 +2925,7 @@ const plans = [
         monthly: 'LKR 5,900',
         yearly: 'LKR 59,000',
         desc: 'Perfect for small businesses getting started with smarter inventory management.',
-        cta: 'Start Free Trial',
+        cta: 'Contact Sales',
         popular: false,
         features: [
             'Inventory Management',
@@ -2946,7 +2946,7 @@ const plans = [
         monthly: 'LKR 11,900',
         yearly: 'LKR 119,000',
         desc: 'AI-powered inventory intelligence for growing distributors and SMEs.',
-        cta: 'Start Free Trial',
+        cta: 'Contact Sales',
         popular: true,
         features: [
             'Everything in Starter',
@@ -4136,14 +4136,14 @@ function CTA() {
                                 e.currentTarget.style.transform = 'translateY(0)';
                                 e.currentTarget.style.boxShadow = '0 0 30px rgba(232,112,13,0.3)';
                             },
-                            children: "Start Free Trial"
+                            children: "Contact Sales"
                         }, void 0, false, {
                             fileName: "[project]/Documents/Forgera/forgera-web/app/components/CTA.tsx",
                             lineNumber: 53,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Forgera$2f$forgera$2d$web$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            onClick: ()=>window.open('https://www.linkedin.com/in/amar-bazlin/', '_blank', 'noopener,noreferrer'),
+                            onClick: ()=>window.location.href = 'mailto:amar@forgera.app?subject=Contact%20Us%20-%20Forgera',
                             style: {
                                 background: 'transparent',
                                 color: '#aaa',
@@ -4162,7 +4162,7 @@ function CTA() {
                                 e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)';
                                 e.currentTarget.style.color = '#aaa';
                             },
-                            children: "Talk to Founder"
+                            children: "Contact Us"
                         }, void 0, false, {
                             fileName: "[project]/Documents/Forgera/forgera-web/app/components/CTA.tsx",
                             lineNumber: 62,

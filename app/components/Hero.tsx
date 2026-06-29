@@ -87,7 +87,7 @@ export default function Hero() {
                 display: 'flex', gap: 14, marginTop: 40, flexWrap: 'wrap', justifyContent: 'center',
             }}>
                 <button
-                    onClick={() => scrollTo('pricing')}
+                    onClick={() => window.location.href = 'mailto:amar@forgera.app?subject=Contact%20Us%20-%20Forgera'}
                     style={{
                         background: '#E8700D', color: '#fff', borderRadius: 10,
                         padding: '14px 32px', fontSize: 16, fontWeight: 600,
@@ -95,7 +95,7 @@ export default function Hero() {
                     }}
                     onMouseEnter={e => { e.currentTarget.style.background = '#C45D0A'; e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 6px 40px rgba(232,112,13,0.45)'; }}
                     onMouseLeave={e => { e.currentTarget.style.background = '#E8700D'; e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 0 30px rgba(232,112,13,0.3)'; }}
-                >Get Started Free</button>
+                >Contact</button>
                 <button
                     onClick={() => scrollTo('features')}
                     style={{

@@ -8,7 +8,7 @@ const plans = [
         monthly: 'LKR 5,900',
         yearly: 'LKR 59,000',
         desc: 'Perfect for small businesses getting started with smarter inventory management.',
-        cta: 'Start Free Trial',
+        cta: 'Contact Sales',
         popular: false,
         features: [
             'Inventory Management',
@@ -29,7 +29,7 @@ const plans = [
         monthly: 'LKR 11,900',
         yearly: 'LKR 119,000',
         desc: 'AI-powered inventory intelligence for growing distributors and SMEs.',
-        cta: 'Start Free Trial',
+        cta: 'Contact Sales',
         popular: true,
         features: [
             'Everything in Starter',

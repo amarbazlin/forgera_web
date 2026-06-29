@@ -35,8 +35,7 @@ export default function Footer() {
                             Colombo, Sri Lanka
                         </div>
                         <a
-                            href="https://www.linkedin.com/in/amar-bazlin/"
-                            target="_blank" rel="noreferrer"
+                            href="mailto:amar@forgera.app"
                             style={{
                                 display: 'inline-flex', alignItems: 'center', gap: 6,
                                 marginTop: 16, color: '#E8700D', fontSize: 13, fontWeight: 500,
@@ -45,11 +44,11 @@ export default function Footer() {
                             onMouseEnter={e => (e.currentTarget as HTMLElement).style.opacity = '0.75'}
                             onMouseLeave={e => (e.currentTarget as HTMLElement).style.opacity = '1'}
                         >
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
-                                <circle cx="4" cy="4" r="2" />
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="M22 4L12 13L2 4" />
                             </svg>
-                            Amar Bazlin — Founder
+                            amar@forgera.app
                         </a>
                     </div>
 

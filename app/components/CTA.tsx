@@ -58,9 +58,9 @@ export default function CTA() {
             }}
             onMouseEnter={e => { e.currentTarget.style.background = '#C45D0A'; e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 40px rgba(232,112,13,0.5)'; }}
             onMouseLeave={e => { e.currentTarget.style.background = '#E8700D'; e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 0 30px rgba(232,112,13,0.3)'; }}
-          >Start Free Trial</button>
+          >Contact Sales</button>
           <button
-            onClick={() => window.open('https://www.linkedin.com/in/amar-bazlin/', '_blank', 'noopener,noreferrer')}
+            onClick={() => window.location.href = 'mailto:amar@forgera.app?subject=Contact%20Us%20-%20Forgera'}
             style={{
               background: 'transparent', color: '#aaa',
               border: '1px solid rgba(255,255,255,0.15)', borderRadius: 10,
@@ -69,7 +69,7 @@ export default function CTA() {
             }}
             onMouseEnter={e => { e.currentTarget.style.borderColor = '#E8700D'; e.currentTarget.style.color = '#E8700D'; }}
             onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)'; e.currentTarget.style.color = '#aaa'; }}
-          >Talk to Founder</button>
+          >Contact Us</button>
         </div>
       </div>
     </section>
